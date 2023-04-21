@@ -2,7 +2,7 @@
 
 Discord bot that sends reminder message automatically by specifying in daily/weekly/monthly intervals (limit of reminders can be set)
 
-### `/remind(message: string, interval: string, time: integer, period: string)`
+Commands: `remind`, `remove`, `clear`, `list`
 
 Set up a reminder by specifying its:
 
@@ -10,14 +10,24 @@ Set up a reminder by specifying its:
 - hour **(1-12)**
 - period **(AM/PM)**
 
-### `/remove(id: string)`
+```
+/remind(message: string, interval: string, time: integer, period: string)
+```
 
 Remove a specific reminder and stop its cron job by providing its uuid
 
-### `/clear`
+```
+/remove(id: string)
+```
 
 Clear all reminders from the list and stop their cron jobs
 
-### `/list`
+```
+/clear
+```
 
 View all messages from the list including their ID, message and schedule
+
+```
+/list
+```
