@@ -1,0 +1,22 @@
+{
+  "name": "discord-reminder-birdie",
+  "version": "1.0.0",
+  "description": "A Discord birdie that sends out reminders regualrly with specific time and intervals given by users.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "deploy-commands": "ts-node deploy-command.ts"
+  },
+  "keywords": [],
+  "author": "0xdevant",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-cron": "^3.0.4",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0"
+  }
+}
