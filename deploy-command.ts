@@ -27,8 +27,8 @@ const commands = [
         .addChoices(
           { name: "Daily", value: "daily" },
           { name: "Weekly", value: "weekly" },
-          { name: "Monthly", value: "monthly" },
-          { name: "Test", value: "test" }
+          { name: "Monthly", value: "monthly" }
+          // { name: "Test", value: "test" }
         )
     )
     .addIntegerOption((option) =>
